@@ -1,5 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+ 
 <script>
-<meta charset="UTF-8">
+
   import { onMount, onDestroy } from 'svelte';
 
 import LoremIpsum from './LoremIpsum.svelte'
@@ -158,4 +166,5 @@ import LoremIpsum from './LoremIpsum.svelte'
     }
   }
 </style>
-
+</body>
+</html>
