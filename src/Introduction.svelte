@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
 <p> <strong> Dans le cadre du Pacte vert, l'UE veut promouvoir léconomie circulaire en produisant moins de déchets tout en recyclant mieux. Cette politique vise surtout les résidus demballage. </strong></p>
 <p>Une fois quun produit est consommé, il reste les contenants : bouteilles plastiques, cartons de céréales, boites à chaussures, aluminium dun plat. Un des buts du Pacte Vert, cest de réduire les emballages en les recyclant. 
 <h2> La position de la Belgique en Europe </h2>
@@ -6,5 +13,6 @@
 Malte et Roumanie font partie des « mauvais élèves » (avec 38,4% et 39,9% en 2021 et 2020). Et derrière la Belgique, viennent les Pays-Bas (76,6%), le Luxembourg (73,7%), lItalie (72,9%) et les autres pays suivent.</p> 
 <h2> L'évolution du recyclage en Belgique </h2>
 
-
+</body>
+</html>
 
