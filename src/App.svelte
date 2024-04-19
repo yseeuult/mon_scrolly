@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
 
-</head>
-<body>
  
 <script>
 
@@ -92,7 +86,7 @@ import LoremIpsum from './LoremIpsum.svelte'
 	:global(body) {
     background-color: white; 
 		color: black;
-		font-family: 'Times New Roman', sans-serif; 
+		font-family: 'Arial', sans-serif; 
   }
 	
 	*{
@@ -166,5 +160,4 @@ import LoremIpsum from './LoremIpsum.svelte'
     }
   }
 </style>
-</body>
-</html>
+
