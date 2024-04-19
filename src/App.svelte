@@ -1,4 +1,5 @@
 <script>
+<meta charset="UTF-8">
   import { onMount, onDestroy } from 'svelte';
 
 import LoremIpsum from './LoremIpsum.svelte'
@@ -14,10 +15,10 @@ import LoremIpsum from './LoremIpsum.svelte'
 	
   let stepsData = [
     { "text": "En Belgique, les produits emballés mis sur le marché <mark style='background-color: #B118C8; color:white; padding: 2px; border-radius: 5px;'><strong>sur la courbe mauve</strong></mark>,généraient 188,7 kg de déchets d'emballages par habitant en 2021. Au total, ça fait un peu moins de 2 millions de tonnes de produits." },
-    { "text": "La Belgique se hisse en haut du classement européen, en recyclant <mark style='background-color:#32CBFF80; color:white; padding 2px; border-radius: 5px;'> 80,4% des emballages depuis 2021 </mark>, soit un peu moins de 1,6 millions de tonnes." },
+    { "text": "La Belgique a un taux de recyclage des déchets <mark style='background-color:#32CBFF80; color:white; padding 2px; border-radius: 5px;'> 80,4% des emballages depuis 2021 </mark>, soit un peu moins de 1,6 millions de tonnes." },
     { "text": "Depuis 2001, le taux de recyclage belge a augmenté de 9%, allant de 71,8% (un peu moins de 1,2 millions de tonnes) à 80,4% en 2021." },
 		{ "text": "A partir de 2014, le taux de recyclage en Belgique passe le cap  <mark style='background-color: #B118C8; color:white; padding: 2px; border-radius: 5px;'><strong> des 80%</strong></mark> </mark>"  },
-
+{"text":"Que ce soit aujourd'hui ou il y a 20 ans, le plastique demeure la catégorie de déchets la moins recyclée. Toutefois, son taux de recyclage a considérablement augmenté, passant de 28% en 2001 à 49% en 2021." }
   ];
 
 	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
