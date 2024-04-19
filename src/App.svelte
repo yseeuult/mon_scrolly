@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
 
-	import LoremIpsum from './LoremIpsum.svelte'
+import LoremIpsum from './LoremIpsum.svelte'
 
 	import Introduction from './Introduction.svelte'
 
@@ -13,15 +13,15 @@
 // le texte des boites
 	
   let stepsData = [
-    { "text": "En Belgique, les produits emballés mis sur le marché <mark style='background-color: #B118C8; color:white; padding: 2px; border-radius: 5px;'><strong>sur la courbe mauve</strong></mark>,généraient 188,7 kg de déchets d'emballages par habitant en 2021. Au total, ça fait un peu moins de 2 millions de tonnes de produits." },
-    { "text": "La Belgique se hisse en haut du classement européen, en recyclant <mark style='background-color:#32CBFF80; color:white; padding 2px; border-radius: 5px;'> 80,4% des emballages depuis 2021 </mark>, soit un peu moins de 1,6 millions de tonnes." },
-    { "text": "Depuis 2001, le taux de recyclage belge a augmenté de 9%, allant de 71,8% (un peu moins de 1,2 millions de tonnes) à 80,4% en 2021." },
+    { "text": "En Belgique, les produits emballÃ©s mis sur le marchÃ© <mark style='background-color: #B118C8; color:white; padding: 2px; border-radius: 5px;'><strong>sur la courbe mauve</strong></mark>,gÃ©nÃ©raient 188,7 kg de dÃ©chets d'emballages par habitant en 2021. Au total, Ã§a fait un peu moins de 2 millions de tonnes de produits." },
+    { "text": "La Belgique se hisse en haut du classement europÃ©en, en recyclant <mark style='background-color:#32CBFF80; color:white; padding 2px; border-radius: 5px;'> 80,4% des emballages depuis 2021 </mark>, soit un peu moins de 1,6 millions de tonnes." },
+    { "text": "Depuis 2001, le taux de recyclage belge a augmentÃ© de 9%, allant de 71,8% (un peu moins de 1,2 millions de tonnes) Ã  80,4% en 2021." },
 		{ "text": "A partir de 2014, le taux de recyclage en Belgique passe le cap  <mark style='background-color: #B118C8; color:white; padding: 2px; border-radius: 5px;'><strong> des 80%</strong></mark> </mark>"  },
 
   ];
 
-	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
-	// ça on ne touche pas sinon tout se casse !
+	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a Ã  l'Ã©cran)
+	// Ã§a on ne touche pas sinon tout se casse !
 
   onMount(() => {
     observer = new IntersectionObserver((entries) => {
@@ -43,9 +43,9 @@
   });
 </script>
 
-<h1>Pacte Vert: les chiffres du recyclage des déchets en Belgique </h1>
+<h1>Pacte Vert: les chiffres du recyclage des dÃ©chets en Belgique </h1>
 <figure><img src="https://cor.europa.eu/en/events/PublishingImages/4565%20GREEN%20DEAL%20new%20branding%20-%20web%20banner%20900x600.png" alt="le pacte vert de l'Europe" width=500 height=350>
-<figcaption> <i> Le Pacte Vert est un des enjeux forts de la présidence belge de l'UE. (c) CdR </i></figcaption></figure><Introduction/> 
+<figcaption> <i> Le Pacte Vert est un des enjeux forts de la prÃ©sidence belge de l'UE. (c) CdR </i></figcaption></figure><Introduction/> 
 
 
 <!-- si tu affiches la step_0, alors montre la slide_0 -->
@@ -76,9 +76,9 @@
 <style>
 
 	/* Ici les valeurs pour l'ensemble de la page > 
-	peut nécessiter des modifs de couleurs dans Flourish 
+	peut nÃ©cessiter des modifs de couleurs dans Flourish 
 	pour s'assurer que le graphe soit tjs bien visible (titre de graphique noir sur
-	fond de page noir,ça ne se voit pas bien...*/
+	fond de page noir,Ã§a ne se voit pas bien...*/
 
 	:global(body) {
     background-color: white; 
@@ -143,7 +143,7 @@
     margin: auto;
   }
 
-	/* Pour adapter la vue en mobile: steps centrées par dessus le graphique */
+	/* Pour adapter la vue en mobile: steps centrÃ©es par dessus le graphique */
 
   @media screen and (max-width: 768px) {
     .section-container {
